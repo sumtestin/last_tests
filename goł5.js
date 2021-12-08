@@ -16,7 +16,7 @@ document.write(`
 		<input id='chatbot-input' type='text'>
 		<input type='submit'>
 	</form>	
-    <div> hejka;</div>
+    <div> JESLI TO WIDZISZ TO MASZ WIELKI POWOD DO ZADOWOLENIA, NIE JEDEN OCZYWISCIE :D;</div>
 	</div>
 
 `);
