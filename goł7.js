@@ -6,7 +6,7 @@ document.write(`
         <div class="dot"></div>
         </div>
     </div>
-    <link rel="stylesheet" href="./templates/preview.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sumtestin/last_tests@v5.0.0/goł7.css">
 	<style>
 		body{
 			background-color:blue;
