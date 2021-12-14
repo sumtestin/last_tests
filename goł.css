@@ -1,0 +1,124 @@
+body{
+	background-color: yellow;
+}
+
+#chatbox{
+    width: 350px;
+    height: 350px;
+    background-color: #FFF;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+#chatbar{
+    width: 350px;
+    height: 35px;
+    background-color: #4e8086;
+    position: sticky;
+    top: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.bot-msg{
+    height: auto;
+    width: auto;
+    max-width: 210px;
+    background-color: rgb(255, 172, 46);
+    padding: 10px 13px 10px;
+    border-radius: 20px;
+    clear: both;
+    float:right;
+    margin: 10px;
+}
+
+.multiple-btn{
+  height: auto;
+  width: auto;
+  max-width: 210px;
+  background-color: rgb(255, 241, 46);
+  padding: 10px 13px 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.user-msg{
+    height: auto;
+    width: auto;
+    max-width: 210px;
+    background-color: rgb(243, 240, 233);
+    padding: 10px;
+    border-radius: 20px;
+    clear: both;
+    float:left;
+    margin: 10px;
+}
+
+#chat-bubble {
+    background-color:#ececec;
+    padding:16px 28px;
+    -webkit-border-radius: 20px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius: 20px;
+    -moz-border-radius-bottomleft: 2px;
+    border-radius: 20px;
+    border-bottom-left-radius: 2px;
+    display:inline-block;
+    /*display: none;*/
+    visibility: hidden;
+    /*transition: visibility 3s;*/
+  }
+
+  .visible{
+    visibility: visible;
+  }
+
+  #typing {
+    align-items: center;
+    display: flex;
+    height: 17px;
+  }
+
+  #typing .dot {
+    animation: mercuryTypingAnimation 1.8s infinite ease-in-out;
+    background-color: #3e4442; 
+    border-radius: 50%;
+    height: 7px;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 7px;
+    display: inline-block;
+  }
+
+  #typing .dot:nth-child(1) {
+    animation-delay: 200ms;
+  }
+  #typing .dot:nth-child(2) {
+    animation-delay: 300ms;
+  }
+  #typing .dot:nth-child(3) {
+    animation-delay: 400ms;
+  }
+  #typing .dot:last-child {
+    margin-right: 0;
+  }
+  
+  @keyframes mercuryTypingAnimation {
+    0% {
+      transform: translateY(0px);
+      background-color:#3e4442; 
+    }
+    28% {
+      transform: translateY(-7px);
+      background-color:#3e4442; 
+    }
+    44% {
+      transform: translateY(0px);
+      background-color: #3e4442; 
+    }
+  }
