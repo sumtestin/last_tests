@@ -7,11 +7,6 @@ document.write(`
         </div>
     </div>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sumtestin/last_tests@v5.0.0/goł7.css">
-	<style>
-		body{
-			background-color:blue;
-		}
-	</style>
 	<div id="start-chatbot" onclick="start()">rozpocznij</div>
 	<div id="chatbox" style="display: none;">
 	<div id="chatbar"></div>
